@@ -63,7 +63,7 @@ class Clients extends Component {
               <h5 className='text-right text-secondary'>
                 Total Owed{' '}
                 <span className='text-primary'>
-                  ${parseFloat(totalOwed).toFixed(2)}
+                  Rs {parseFloat(totalOwed).toFixed(2)}
                 </span>
               </h5>
             </div>
