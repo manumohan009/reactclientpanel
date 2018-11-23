@@ -64,7 +64,6 @@ class AddClient extends Component {
                   type='text'
                   className='form-control'
                   name='lastName'
-                  minLength='2'
                   required
                   onChange={this.onChange}
                   value={this.state.lastName}
